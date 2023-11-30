@@ -1,0 +1,53 @@
+* {
+  box-sizing: border-box;
+}
+
+.cardImg {
+  height: 100px;
+  width: 100px;
+  border-radius: 10px;
+  padding-bottom: 5px;
+}
+.addButton {
+  height: 25px;
+  width: 80px;
+  background-color: red;
+  border-radius: 10px;
+  text-align: center;
+  color: white;
+  font-size: 14px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 700;
+  margin-top: 10px;
+}
+
+.removeButton{
+  height: 25px;
+  width: 80px;
+  background-color: grey;
+  border-radius: 10px;
+  text-align: center;
+  color: white;
+  font-size: 14px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 700;
+  margin-top: 10px;
+}
+
+.FoodCategory{
+  display: flex;
+  gap: 20px;
+  padding-bottom: 20px;
+  width: calc(100vw - 45px);
+  overflow-x: scroll;
+}
+
+::-webkit-scrollbar {
+  width: 0px;
+  height: 0px;
+}
+

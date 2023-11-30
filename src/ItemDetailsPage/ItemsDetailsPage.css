@@ -1,0 +1,84 @@
+* {
+  box-sizing: border-box;
+}
+
+.detailMain {
+  height: 100vh;
+  background-color: #100f1f;
+  overflow-y: scroll;
+}
+
+.firstDetail {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  color: white;
+  font-size: 25px;
+  padding: 20px;
+}
+
+.secondDetail {
+  display: flex;
+  justify-content: space-between;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.inputInfo {
+  color: black;
+  display: flex;
+  height: 35px;
+}
+
+.inputBox {
+  color: black;
+  height: 35px;
+  width: 250px;
+  border-radius: 20px 0 0 20px;
+  border: none;
+  background-color: white;
+  padding-left: 20px;
+}
+
+.magnifyingGlass {
+  height: 35px;
+  width: 40px;
+  background-color: white;
+  font-size: 25px;
+  border-radius: 0 20px 20px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.equilizerBorder {
+  border: 2px solid white;
+  border-radius: 5px;
+  height: 35px;
+  padding: 2px;
+}
+
+.equilizerIcon {
+  font-size: 25px;
+  color: white;
+}
+
+.DropDownStyling {
+  color: black;
+  background: white;
+  font-size: 20px;
+  display: flex;
+  flex-direction: column;
+  height: 40px;
+  position: absolute;
+  top: 60px;
+  right: 10px;
+  z-index: 100;
+}
+.DropDownLogout {
+  height: 40px;
+  width: 70px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

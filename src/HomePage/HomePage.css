@@ -1,0 +1,83 @@
+* {
+  box-sizing: border-box;
+}
+
+.homeMain {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  background: #100f1f;
+  color: white;
+  position: relative;
+}
+
+.firstChild {
+  position: relative;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 250px;
+  width: 100vw;
+  border-radius: 0 0 25px 25px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 1;
+}
+
+.backgroundImageContainer::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: #100f1f; /* Set the background color here */
+  opacity: 0.3;
+  z-index: -1;
+}
+
+.firstIcons {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  color: white;
+  font-size: 25px;
+  padding: 10px;
+}
+
+.homeTitle {
+  font-size: 30px;
+  font-weight: 700;
+  color: white;
+  padding-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  z-index: 10;
+}
+
+.categoryTitle{
+  display: flex;
+  font-size:20px;
+  font-weight:600;
+  padding-bottom:25px;
+  align-items:center;
+  justify-content:space-between;
+}
+
+.vegDashLine{
+  width:80px;
+}
+
+.nonvegDashLine{
+  width:100px;
+}
+
+.seeMore{
+  font-size:12px;
+}

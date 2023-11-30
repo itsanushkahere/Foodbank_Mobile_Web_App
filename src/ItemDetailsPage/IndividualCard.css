@@ -1,0 +1,70 @@
+* {
+  box-sizing: border-box;
+}
+
+.cardList {
+  padding: 40px 20px;
+}
+
+.individualCard {
+  color: white;
+  display: flex;
+  gap: 20px;
+}
+
+.imgTag {
+  height: 120px;
+  width: 120px;
+  border-radius: 20px;
+}
+
+.listInfo {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.descp {
+  font-size: 12px;
+  color: grey;
+}
+
+.priceAddBtn {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.addItemBtn {
+  height: 25px;
+  width: 80px;
+  background-color: red;
+  border-radius: 10px;
+  text-align: center;
+  color: white;
+  font-size: 14px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 700;
+}
+.removeItemBtn{
+  height: 25px;
+  width: 80px;
+  background-color: grey;
+  border-radius: 10px;
+  text-align: center;
+  color: white;
+  font-size: 14px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 700;
+}
+
+.hrTag {
+  width: 350px;
+  background-color: white;
+}
